@@ -28,9 +28,11 @@ VAD is shifting to LLM-driven semantics. We present SOR-BDNet: annotation-free, 
 
 ## 🎬 Demo Video
 
-<p align="center"><b>Ped2 Anomaly Detection Demo</b></p>
+<p align="center">
+  <video src="https://raw.githubusercontent.com/syi-coder/SOR-BDNet-Semantic-Optical-Representation-for-Boundary-Aware-Video-Anomaly-Detection-with-GPT-4o/main/ped.mp4" 
+         width="80%" 
+         controls>
+  </video>
+</p>
 
-https://github.com/syi-coder/SOR-BDNet-Semantic-Optical-Representation-for-Boundary-Aware-Video-Anomaly-Detection-with-GPT-4o/blob/main/ped.mp4
-
-<p align="center"><i>GitHub will automatically display a video player.</i></p>
 
