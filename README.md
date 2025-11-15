@@ -1,5 +1,5 @@
 # SOR-BDNet Semantic Optical Representation for Boundary-Aware Video Anomaly Detection with GPT-4o
-VAD is shifting to LLM-driven semantics. We present SOR-BDNet: annotation-free, multimodal. RGB + RAFT flow form spatiotemporal inputs; GPT-4o yields frame captions. Anomalies = semantic deviation from normal-caption memory. A Swin+contrastive boundary refiner sharpens timing. Ped2/Avenue/ShanghaiTech: 97.96/82.86/87.68%.
+VAD is shifting to LLM-driven semantics. We present SOR-BDNet: annotation-free, multimodal. RGB + RAFT flow form spatiotemporal inputs; GPT-4o yields frame captions. Anomalies = semantic deviation from normal-caption memory. A Swin+contrastive boundary refiner sharpens timing. Ped2/Avenue/ShanghaiTech/Ucf-Crime: 97.96%, 82.86%, 87.36%, and 85.64%.
 ## 🧩 Model Overview
 
 <p align="center">
@@ -29,7 +29,7 @@ VAD is shifting to LLM-driven semantics. We present SOR-BDNet: annotation-free, 
   <b>Caption-guided anomaly detection and boundary refinement demo</b>
 </p>
 
-https://github.com/syi-coder/SOR-BDNet-Semantic-Optical-Representation-for-Boundary-Aware-Video-Anomaly-Detection-with-GPT-4o/blob/main/ped.mp4
+https://github.com/syi-coder/SOR-BDNet-Semantic-Optical-Representation-for-Boundary-Aware-Video-Anomaly-Detection-with-GPT-4o/main/ped.mp4
 
 <p align="center">
   <i>GitHub will automatically display a video player for the demo.</i>
