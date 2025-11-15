@@ -22,12 +22,16 @@ VAD is shifting to LLM-driven semantics. We present SOR-BDNet: annotation-free, 
   <i>The coarse anomaly interval from GPT-4o captions is refined by a Swin-based boundary module, sharpening the start and end frames of abnormal events.</i>
 </p>
 ---
+---
 
 ## 🎬 Demo Video
 
-<p align="center">
-  <b>Caption-guided anomaly detection and boundary refinement demo</b>
-</p>
+<p align="center"><b>Ped2 Anomaly Detection Demo</b></p>
+
+https://github.com/syi-coder/SOR-BDNet-Semantic-Optical-Representation-for-Boundary-Aware-Video-Anomaly-Detection-with-GPT-4o/blob/main/ped.mp4
+
+<p align="center"><i>GitHub will automatically display a video player.</i></p>
+
 
 https://github.com/syi-coder/SOR-BDNet-Semantic-Optical-Representation-for-Boundary-Aware-Video-Anomaly-Detection-with-GPT-4o/main/ped.mp4
 
