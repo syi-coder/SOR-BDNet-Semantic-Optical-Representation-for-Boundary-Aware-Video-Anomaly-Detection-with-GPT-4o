@@ -67,6 +67,14 @@ https://drive.google.com/file/d/1p1CQUgYhZ1B6pR3pYrb_NpPGygERENgd/view?usp=drive
   <img src="ped2.gif" width="40%">
 </p>
 
+---
+
+## 📝 Summary
+
+SOR-BDNet provides a unified multimodal framework for annotation-free video anomaly detection by combining RGB appearance, RAFT-based motion dynamics, and GPT-4o semantic reasoning. The proposed boundary-aware refinement module further enhances temporal localization accuracy, enabling the model to better capture the start and end points of abnormal events. 
+
+With strong performance across Ped2, Avenue, ShanghaiTech, and UCF-Crime, SOR-BDNet demonstrates the effectiveness of integrating vision, motion, and high-level semantics for robust real-world anomaly detection.
+
 
 
 
