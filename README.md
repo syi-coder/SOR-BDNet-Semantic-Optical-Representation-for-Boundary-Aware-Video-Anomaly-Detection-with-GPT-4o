@@ -26,7 +26,7 @@ Anomaly detection is performed through semantic deviation analysis and visual fe
 </p>
 
 <p align="center">
-  <i>The coarse anomaly interval from GPT-4o captions is refined by a Swin-based boundary module, sharpening the start and end frames of abnormal events.</i>
+  <i>An overview of the proposed framework illustrating the detailed pipeline of representation learning and boundary-aware anomaly detection for video frames.</i>
 </p>
 
 ---
