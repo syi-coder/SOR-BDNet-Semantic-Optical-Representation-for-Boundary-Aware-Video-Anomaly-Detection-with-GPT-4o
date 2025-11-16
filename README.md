@@ -7,7 +7,14 @@ VAD is shifting to LLM-driven semantics. We present SOR-BDNet: annotation-free, 
 </p>
 
 <p align="center">
-  <i>RGB frames and RAFT optical flow are fused into a unified spatiotemporal representation, which is processed by GPT-4o and the boundary-aware network for anomaly detection.</i>
+  <i>The framework takes sequential frames and corresponding optical flow maps as inputs,
+and generates semantic captions through a LLM using carefully designed prompts.
+A semantic repository of normal patterns is constructed from the training data.
+During testing, consecutive captions are compared with the semantic repository to identify semantic deviations.
+Specifically, the anomaly confidence is computed by measuring the semantic similarity between each test caption and the repository of normal captions, where a larger deviation indicates higher anomaly likelihood.
+Meanwhile, raw frames are processed through a SimCLR-based feature extractor consisting of Swin Transformer and Projection Head,
+where NT-Xent loss is used during training to learn discriminative normal representations.
+Anomaly detection is performed through semantic deviation analysis and visual feature boundary refinement.</i>
 </p>
 
 ---
