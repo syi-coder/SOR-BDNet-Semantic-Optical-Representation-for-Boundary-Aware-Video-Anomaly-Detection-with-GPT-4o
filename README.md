@@ -22,7 +22,6 @@ VAD is shifting to LLM-driven semantics. We present SOR-BDNet: annotation-free, 
   <i>The coarse anomaly interval from GPT-4o captions is refined by a Swin-based boundary module, sharpening the start and end frames of abnormal events.</i>
 </p>
 ---
----
 
 
 ## 📁 Directory Structure
