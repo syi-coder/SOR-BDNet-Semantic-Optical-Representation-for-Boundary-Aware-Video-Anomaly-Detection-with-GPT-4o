@@ -26,13 +26,12 @@ VAD is shifting to LLM-driven semantics. We present SOR-BDNet: annotation-free, 
 
 ---
 
-## 🎬 Demo 
+## 🎬 Demo (GIF)
 
 <p align="center">
-  <img src="assets/ped2.gif" width="80%">
+  <img src="ped2.gif" width="80%">
 </p>
 
-<p align="center"><i>GIF demo generated from ped.mp4</i></p>
 
 
 
