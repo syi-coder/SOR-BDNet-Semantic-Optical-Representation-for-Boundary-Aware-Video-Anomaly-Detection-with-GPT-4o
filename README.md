@@ -25,6 +25,42 @@ VAD is shifting to LLM-driven semantics. We present SOR-BDNet: annotation-free, 
 ---
 
 ---
+---
+
+## 📁 Directory Structure
+
+The repository is organized into functional modules including caption generation, 
+optical flow extraction, preprocessing, and the main SOR-BDNet architecture.
+
+SOR-BDNet/
+├── caption/               # GPT-4o caption generation (semantic reasoning)
+│
+├── model/                 # Core SOR-BDNet components (fusion + Swin + boundary refinement)
+│
+├── processing/            # Preprocessing scripts & memory bank construction
+│
+├── prompt_gpt-4o/         # Prompt templates used for GPT-4o VQA/captioning
+│
+├── raft/                  # RAFT optical flow implementation
+│
+├── ped2.gif               # Demo GIF displayed in README
+├── ped.mp4                # Subtitle + boundary refinement video demo
+│
+├── train_cli.py           # Main training entry point
+├── raft.py                # RAFT optical flow extraction script
+└── README.md              # Project documentation
+
+---
+
+## 📥 RAFT Model Weight Download
+
+To generate optical flow using RAFT, please download the pretrained model (.pth) and
+place it inside the `raft/` folder:
+
+👉 **Download RAFT model (.pth):**  
+https://drive.google.com/file/d/1p1CQUgYhZ1B6pR3pYrb_NpPGygERENgd/view?usp=drive_link
+
+
 
 ## 🎬 Demo (GIF)
 
