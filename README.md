@@ -3,7 +3,7 @@ VAD is shifting to LLM-driven semantics. We present SOR-BDNet: annotation-free, 
 ## 🧩 Model Overview
 
 <p align="center">
-  <img src="model/model.png" width="90%">
+  <img src="model/model.png" width="80%">
 </p>
 
 <p align="center">
@@ -15,7 +15,7 @@ VAD is shifting to LLM-driven semantics. We present SOR-BDNet: annotation-free, 
 ## 🎯 Boundary Refinement
 
 <p align="center">
-  <img src="model/bianjie.png" width="90%">
+  <img src="model/bianjie.png" width="80%">
 </p>
 
 <p align="center">
@@ -29,7 +29,7 @@ VAD is shifting to LLM-driven semantics. We present SOR-BDNet: annotation-free, 
 ## 🎬 Demo (GIF)
 
 <p align="center">
-  <img src="ped2.gif" width="80%">
+  <img src="ped2.gif" width="60%">
 </p>
 
 
