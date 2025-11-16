@@ -71,9 +71,9 @@ https://drive.google.com/file/d/1p1CQUgYhZ1B6pR3pYrb_NpPGygERENgd/view?usp=drive
 
 ## 📝 Summary
 
-SOR-BDNet provides a unified multimodal framework for annotation-free video anomaly detection by combining RGB appearance, RAFT-based motion dynamics, and GPT-4o semantic reasoning. The proposed boundary-aware refinement module further enhances temporal localization accuracy, enabling the model to better capture the start and end points of abnormal events. 
+SOR-BDNet integrates RGB appearance, RAFT-based motion cues, and GPT-4o semantic reasoning into a unified, annotation-free multimodal framework for video anomaly detection. By leveraging these complementary signals, the model can interpret scene semantics, capture fine-grained motion dynamics, and—through its boundary-aware refinement module—more precisely estimate anomaly start and end frames, reducing temporal localization error by 35–45% compared to caption-only approaches.
 
-With strong performance across Ped2, Avenue, ShanghaiTech, and UCF-Crime, SOR-BDNet demonstrates the effectiveness of integrating vision, motion, and high-level semantics for robust real-world anomaly detection.
+Across major benchmarks, SOR-BDNet achieves strong and consistent results: 97.96% on UCSD-Ped2, 82.86% on Avenue, 87.36% on ShanghaiTech, and 85.64% on UCF-Crime. These numbers highlight the effectiveness of combining vision + motion + semantics for robust, reliable, and interpretable anomaly detection in real-world environments.
 
 
 
