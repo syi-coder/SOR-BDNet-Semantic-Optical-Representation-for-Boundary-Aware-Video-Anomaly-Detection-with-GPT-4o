@@ -24,8 +24,6 @@ VAD is shifting to LLM-driven semantics. We present SOR-BDNet: annotation-free, 
 ---
 ---
 
----
----
 
 ## 📁 Directory Structure
 
