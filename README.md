@@ -50,17 +50,13 @@ SOR-BDNet/
 ├── raft.py                # RAFT optical flow extraction script
 └── README.md              # Project documentation
 
----
 
 ## 📥 RAFT Model Weight Download
 
 To generate optical flow using RAFT, please download the pretrained model (.pth) and
 place it inside the `raft/` folder:
 
-👉 **Download RAFT model (.pth):**  
 https://drive.google.com/file/d/1p1CQUgYhZ1B6pR3pYrb_NpPGygERENgd/view?usp=drive_link
-
-
 
 ## 🎬 Demo (GIF)
 
